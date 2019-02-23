@@ -3,4 +3,13 @@
     <string name="continue_action">Continue</string>
     <string name="spin_action">Spin the wheel!</string>
     <string name="add_option">Add</string>
+    <string name="accept_action">Accept</string>
+    <string name="add_item">Add Item</string>
+    <string name="add_item_hint">Item name</string>
+    <string name="delete">Delete</string>
+    <string name="too_many_items">There are too many items in the list.</string>
+    <string name="setup">Setup</string>
+    <string name="spin">Spin</string>
+    <string name="please_add_items">Please add at least 2 items to the list.</string>
+    <string name="database_name">WheelyCoolAppDatabase</string>
 </resources>

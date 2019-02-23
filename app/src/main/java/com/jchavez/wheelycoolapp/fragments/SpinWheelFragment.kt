@@ -37,7 +37,7 @@ class SpinWheelFragment : Fragment() {
         }
         (activity as AppCompatActivity).supportActionBar?.setDisplayHomeAsUpEnabled(true)
         (activity as AppCompatActivity).supportActionBar?.setDisplayShowHomeEnabled(true)
-        activity?.title = "Spin"
+        activity?.title = getString(R.string.spin)
         view.wheelView.items = items
         return view
     }

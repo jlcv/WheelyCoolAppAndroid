@@ -87,8 +87,15 @@ class WheelView : View {
     }
 
     fun rotateWheel() {
+        if (items.isEmpty()) { return }
         val randomValue = CircleCalculator.generateRandomRotationValue(items.count())
-        val rotateAnimation = RotateAnimation(currentDegrees, (currentDegrees + randomValue + (CircleCalculator.getAngleSizeInDegrees(items.count()) / 2.0f)), 1, 0.5f, 1, 0.5f)
+        val rotateAnimation = RotateAnimation(
+                currentDegrees,
+                (currentDegrees + randomValue + (CircleCalculator.getAngleSizeInDegrees(items.count()) / 2.0f)),
+                1,
+                0.5f,
+                1,
+                0.5f)
         currentDegrees = (currentDegrees + randomValue) % 360
         rotateAnimation.duration = randomValue.toLong()
         rotateAnimation.fillAfter = true

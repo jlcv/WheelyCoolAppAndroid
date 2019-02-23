@@ -10,7 +10,6 @@ object CircleCalculator {
 
     fun generateRandomRotationValue(itemCount: Int): Float {
         val angleSize = getAngleSizeInDegrees(itemCount)
-        val generatedValue = (angleSize * Random().nextInt(itemCount)) + 3600
-        return generatedValue
+        return (angleSize * Random().nextInt(itemCount)) + 3600
     }
 }

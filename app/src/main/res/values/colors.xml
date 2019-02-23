@@ -13,5 +13,6 @@
     <color name="cyan">#006064</color>
     <color name="teal">#004D40</color>
     <color name="green">#1B5E20</color>
+    <color name="transparentBackground">#CCCCCCCC</color>
 
 </resources>
